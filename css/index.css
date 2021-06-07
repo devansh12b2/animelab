@@ -43,16 +43,18 @@ body {
 .navigation a{
     margin-left: auto;
     margin-right: auto;
+    font-size: 40px;
+    text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
-    width: 150px;
-    border: solid 2px rgb(0, 202, 238);
+    width: 40%;
+    border: solid 2px white;
     border-radius: 10px;
     display: block;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     overflow-x: hidden;
-    background-color: rgba(0, 9, 141, 0.294);
+    background-color: black;
     color: white;
 }
 
@@ -74,7 +76,6 @@ body {
 .navbtn:hover{
     color: rgb(0, 202, 238);
 }
-
 @media screen and (max-width: 750px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
