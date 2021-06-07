@@ -25,7 +25,6 @@ body {
 .navigation {
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/images/kakashi-reading.jpg);
     background-size: cover;    
     height: 100%;
     position: fixed;
@@ -58,11 +57,11 @@ body {
 }
 
 .navigation a:hover {
-    background-image: url(/images/pain-naruto.jpg);
+    background-image: url(/images/pain-icon-sq.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
-    color: black;  
+    background-size: cover;
+    color: rgb(255, 211, 92);  
     text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
 
