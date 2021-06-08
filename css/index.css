@@ -33,7 +33,6 @@ body {
     background-origin: padding-box;
     border-radius: 30px;
     position: relative;
-    border-left: 10%;
 }
 
 .navigation {
