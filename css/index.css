@@ -8,11 +8,11 @@ body {
     display: flex;
     flex-direction: column-reverse;
     margin: 0 auto;
-    background-image: url(/images/akatsuki.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 10rem;
+    background-image: url(/images/akatsuki.jpg);
     text-align: center;
     width: 70%;
     height: 30rem;
@@ -20,6 +20,43 @@ body {
     border-radius: 20px;
     position: relative;
     text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+.heading {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: column;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 6rem;
+    text-align: center;
+    width: 50%;
+    height: 7rem;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 8px 8px 8px 8px;
+    position: relative;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+.content {
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+    width: 70%;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 8px 30px 8px 30px;
+    position: relative;
+    background-color: rgb(41, 41, 41);
 }
 
 .navigation {
@@ -47,7 +84,7 @@ body {
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
-    width: 40%;
+    width: 60%;
     border: solid 2px white;
     border-radius: 10px;
     display: block;
